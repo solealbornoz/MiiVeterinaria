@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MiiVeterinaria - Cuidando a tus mascotas</title>
+  <title>Vacunacion</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -47,106 +47,90 @@
     <div class="banner-fondo"></div> <!-- Imagen desenfocada -->
     <div class="banner-overlay"></div> <!-- Capa oscura -->
     <div class="banner-texto">
-      <h2>Cuidado profesional para tus mascotas</h2>
+      <h2>Vacunacion</h2>
     </div>
   </section>
 
   <section>
     <div class="boton-guardia-container">
-      <a href="Emergencias.html" style="text-decoration: none; color: inherit;">
-        <div class="service-card">
-          <div class="icon">🚑</div>
-          <div class="text-container">
-            <div class="text-inner">
-              <div class="title">Emergencia Veterinaria</div>
-              <span class="extra-text">Atención inmediata las 24Hs.</span>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="services-grid">
-
       <div class="service-card">
-        <div class="icon">🏥</div>
-        <div class="text-container">
-          <div class="text-inner">
-            <span class="title">Zoonosis</span>
-          </div>
-        </div>
-      </div>
-
-      <a href="./vacunacion.html" class="service-card" style="text-decoration: none; color: inherit;">
         <div class="icon">💉</div>
         <div class="text-container">
           <div class="text-inner">
-            <span class="title">Vacunación</span>
-            <span class="extra-text">Calendario completo</span>
+            <div class="title">¿Por qué es importante vacunar?</div>
+            <span class="extra-text">Ayudan a prevenir enfermedades graves</span>
           </div>
         </div>
-      </a>
+      </div>
+    </div>
 
-      <a href="./leyes-animales.html" class="service-card" style="text-decoration: none; color: inherit;">
-        <div class="icon">✒️</div>
-        <div class="text-container">
-          <div class="text-inner">
-            <span class="title">Leyes de los animales</span>
-            <span class="extra-text">Conocé los derechos de tus mascotas</span>
-          </div>
-        </div>
-      </a>
+  
+    <div class="services-grid">
 
       <div class="service-card">
-        <div class="icon">❓</div>
+        <div class="icon">🐶</div>
         <div class="text-container">
           <div class="text-inner">
-            <span class="title">Preguntas frecuentes</span>
-            <span class="extra-text">¿Tenés dudas? ¡Consultá!</span>
+            <span class="title">Vacunas para perros</span>
+            <span class="extra-text">Moquillo, parvovirus, rabia y más</span>
           </div>
         </div>
       </div>
-    </div> <!-- cierra services-grid -->
 
-  </section> <!-- cierra services -->
-
-
-
-
-  <!-- Modal de cuenta -->
-  <div id="authModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-
-      <div id="loginForm" class="auth-form">
-        <h2>Mi Cuenta</h2>
-        <form>
-          <input type="email" placeholder="Correo electrónico" required />
-          <input type="password" placeholder="Contraseña" required />
-          <div class="boton-container">
-            <button class="boton">Continuar</button>
+      <div class="service-card">
+        <div class="icon">🐱</div>
+        <div class="text-container">
+          <div class="text-inner">
+            <span class="title">Vacunas para gatos</span>
+            <span class="extra-text">Triple felina, leucemia, rabia y más.</span>
           </div>
-        </form>
-        <p>¿Primera vez aquí? <a href="#" id="showRegister">Crear cuenta</a></p>
+        </div>
       </div>
 
-      <div id="registerForm" class="auth-form" style="display: none;">
-        <h2>Crear Cuenta</h2>
-        <form>
-          <input type="text" placeholder="Nombre completo" required />
-          <input type="email" placeholder="Correo electrónico" required />
-          <input type="password" placeholder="Contraseña" required />
-          <input type="password" placeholder="Confirmar contraseña" required />
-          <button type="submit">Registrarse</button>
-        </form>
-        <p>¿Ya tienes cuenta? <a href="#" id="showLogin">Iniciar sesión</a></p>
-      </div>
+    </section>
 
-    </div>
+    <!-- HTML -->
+<section class="tabla-vacunacion">
+  <h2 class="titulo-tabla">Calendario de Vacunación</h2>
+  <div class="table-container">
+    <table class="tabla-verde">
+      <thead>
+        <tr>
+          <th>Edad</th>
+          <th>Vacuna</th>
+          <th>Protección</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2 meses</td>
+          <td>Moquillo / Parvovirus</td>
+          <td>Enfermedades virales graves</td>
+        </tr>
+        <tr>
+          <td>4 meses</td>
+          <td>Rabia</td>
+          <td>Protección contra la rabia</td>
+        </tr>
+        <tr>
+          <td>6 meses</td>
+          <td>Refuerzos</td>
+          <td>Fortalecimiento de inmunidad</td>
+        </tr>
+        <tr>
+          <td>1 año</td>
+          <td>Polivalente</td>
+          <td>Protección completa</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="footer-gradient" id="contacto">
+  </main>
+
+   <!-- Footer -->
+   <footer class="footer-gradient" id="contacto">
     <div class="footer-content">
       <div class="footer-info">
         <p>Contacto: info@miiveterinaria.com</p>
