@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preguntas Frecuentes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="images/png" href="./images/logo_4.png">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-gradient fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo_4.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+        <a class="navbar-brand" href="#">MiiVeterinaria</a>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <button id="accountBtn" class="btn btn-outline-light ms-2">Mi Cuenta</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <section class="banner">
+    <div class="banner-fondo"></div>
+    <div class="banner-overlay"></div>
+    <div class="banner-texto">
+      <h2>Preguntas Frecuentes</h2>
+    </div>
+  </section>
+
+  <!-- Contenido Principal -->
+  <main class="container my-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+
+        <!-- Categoría 1: Citas y Servicios -->
+        <h3 class="category-title mt-5">
+          <i class="fas fa-calendar-check me-2"></i>Turnos y Servicios
+        </h3>
+        <div class="accordion" id="accordionCitas">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cita1">
+                ¿Cómo puedo agendar un turno?
+              </button>
+            </h2>
+            <div id="cita1" class="accordion-collapse collapse" data-bs-parent="#accordionCitas">
+              <div class="accordion-body">
+                Puedes agendar de tres formas:
+                <ol class="mt-2">
+                  <li>Llamando al <strong>11-1234-5678</strong> en horario de atención.</li>
+                  <li>Visitando nuestro <a href="#">sistema de turnos online</a>.</li>
+                  <li>En persona en nuestra clínica.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cita2">
+                ¿Atienden emergencias 24/7?
+              </button>
+            </h2>
+            <div id="cita2" class="accordion-collapse collapse" data-bs-parent="#accordionCitas">
+              <div class="accordion-body">
+                Sí, contamos con <strong>servicio de urgencias las 24 horas</strong> todos los días del año. <br>Llama al <strong>22-3333-4444</strong> para emergencias fuera de horario normal <br><strong>Recuerde que este servicio es de pago</strong>.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría 2: Cuidado de Mascotas -->
+        <h3 class="category-title mt-5">
+          <i class="fas fa-paw me-2"></i>Cuidado de Mascotas
+        </h3>
+        <div class="accordion" id="accordionCuidado">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cuidado1">
+                ¿Con qué frecuencia debo llevar a mi mascota al veterinario?
+              </button>
+            </h2>
+            <div id="cuidado1" class="accordion-collapse collapse" data-bs-parent="#accordionCuidado">
+              <div class="accordion-body">
+                <strong>Recomendamos:</strong>
+                <table class="table table-bordered mt-3">
+                  <thead class="table-light">
+                    <tr>
+                      <th>Edad</th>
+                      <th>Frecuencia</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Cachorros/Gatitos (0-1 año)</td>
+                      <td>Cada 3-4 semanas</td>
+                    </tr>
+                    <tr>
+                      <td>Adultos (1-7 años)</td>
+                      <td>1-2 veces al año</td>
+                    </tr>
+                    <tr>
+                      <td>Senior (7+ años)</td>
+                      <td>Cada 6 meses</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cuidado2">
+                ¿Cómo debo llevar a mi mascota al veterinario?
+              </button>
+            </h2>
+            <div id="cuidado2" class="accordion-collapse collapse" data-bs-parent="#accordionCuidado">
+              <div class="accordion-body">
+                <strong>La mascota deberá ir de la siguiente manera:</strong>
+                <ul>
+                  <li>Si es un canino deberá utilizar bozal y poseer un collar con correa.</li>
+                  <li>Si es un felino deberá transportarse en una caja o bolsa transportadora.</li>
+                  <li>Todos los animales tendrán que tener la <strong>vacuna antirrábica de manera vigente</strong>.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría 3: Pagos y Seguros -->
+        <h3 class="category-title mt-5">
+          <i class="fas fa-credit-card me-2"></i>Abonos
+        </h3>
+        <div class="accordion" id="accordionPagos">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pago1">
+                ¿El servicio de Zoonosis es pago?
+              </button>
+            </h2>
+            <div id="pago1" class="accordion-collapse collapse" data-bs-parent="#accordionPagos">
+              <div class="accordion-body">
+                <strong>No, el servicio de Zoonosis no se abona e incluye los siguientes servicios:</strong>
+                <ul>
+                  <li>Castraciones</li>
+                  <li>Vacunaciones</li>
+                  <li>Médico clínico</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pago2">
+                ¿Qué métodos de pago acepta el servicio de Emergencias 24hs?
+              </button>
+            </h2>
+            <div id="pago2" class="accordion-collapse collapse" data-bs-parent="#accordionPagos">
+              <div class="accordion-body">
+                <strong>El servicio de Emergencias acepta:</strong>
+                <ul>
+                  <li>Efectivo</li>
+                  <li>Tarjetas de crédito/débito (Visa, MasterCard, Amex)</li>
+                  <li>Transferencias bancarias</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sección de contacto -->
+        <div class="card bg-light mt-5">
+          <div class="card-body text-center">
+            <h4 class="card-title">¿Seguís con dudas?</h4>
+            <p class="card-text">Estamos listos para ayudarte</p>
+            <a href="#contacto" class="btn btn-primary">
+              <i class="fas fa-envelope me-2"></i>Contactar
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer (igual al original) -->
+  <footer class="footer-gradient mt-5" id="contacto">
+    <div class="footer-content">
+      <div class="footer-info">
+        <p>Contacto: info@miiveterinaria.com</p>
+        <p>© 2025 MiiVeterinaria</p>
+      </div>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
