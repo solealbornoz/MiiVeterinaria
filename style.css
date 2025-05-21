@@ -365,23 +365,23 @@ main {
     padding: 0.5rem 0;
     color: white;
     text-align: center;
+    width: 100vw; 
+    position: relative;
 }
 
+
 .footer-content {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
-    /* uno a la izquierda y uno a la derecha */
     align-items: center;
-    /* que estén centrados verticalmente */
     gap: 1rem;
 }
 
 .footer-info {
     text-align: right;
-    /* texto alineado a la derecha */
+    
 }
 
 .social-icons {
@@ -466,7 +466,7 @@ main {
   
   .titulo-tabla {
     font-size: 2rem;
-    color: #2e7d32; /* verde oscuro */
+    color: #2e7d32; 
     margin-bottom: 20px;
     text-align: center;
   }
@@ -486,17 +486,17 @@ main {
   
   .tabla-verde th,
   .tabla-verde td {
-    border: 1px solid #66bb6a; /* verde más claro */
+    border: 1px solid #66bb6a; 
     padding: 10px;
   }
   
   .tabla-verde thead {
-    background-color: #e8f5e9; /* fondo verde claro */
+    background-color: #e8f5e9; 
     color: #1b5e20;
   }
   .container {
     max-width: 800px;
-    margin: 0 auto; /* Esto lo centra horizontalmente */
+    margin: 0 auto; 
     padding: 20px;
   }
   
@@ -518,7 +518,7 @@ main {
     display: block;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 50px; /* <-- esto separa del footer */
+    margin-bottom: 50px; 
   }
   
 
